@@ -15,3 +15,15 @@ Route::get('/', function()
 {
 	return View::make('hello');
 });
+Route::get('/login', array('before' => 'auth.basic', function()
+{
+    return Response::json(array(
+        'error' => false,
+        'urls' => 'Login Success.'),
+        200
+    );
+}));
+Route::group(array('prefix' => 'api/v1', 'before' => 'auth.basic'), function()
+{
+    Route::resource('home', 'HomeController');
+});

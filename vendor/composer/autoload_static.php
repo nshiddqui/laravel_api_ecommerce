@@ -251,6 +251,7 @@ class ComposerStaticInit6c729bdf2ca684ab4bd6f64b5451d6b0
         'ClassPreloader\\Parser\\DirVisitor' => __DIR__ . '/..' . '/classpreloader/classpreloader/src/ClassPreloader/Parser/DirVisitor.php',
         'ClassPreloader\\Parser\\FileVisitor' => __DIR__ . '/..' . '/classpreloader/classpreloader/src/ClassPreloader/Parser/FileVisitor.php',
         'ClassPreloader\\Parser\\NodeTraverser' => __DIR__ . '/..' . '/classpreloader/classpreloader/src/ClassPreloader/Parser/NodeTraverser.php',
+        'CreateUsersTable' => __DIR__ . '/../..' . '/app/database/migrations/2020_07_10_205725_create_users_table.php',
         'Crypt_AES' => __DIR__ . '/..' . '/phpseclib/phpseclib/phpseclib/Crypt/AES.php',
         'Crypt_Base' => __DIR__ . '/..' . '/phpseclib/phpseclib/phpseclib/Crypt/Base.php',
         'Crypt_Blowfish' => __DIR__ . '/..' . '/phpseclib/phpseclib/phpseclib/Crypt/Blowfish.php',
